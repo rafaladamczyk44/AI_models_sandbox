@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+
+# TODO: Current accuracy is around 90%, try to optimize
+
+
 # Load the dataset
 df = pd.read_csv('data/datasets/Student_performance_data _.csv')
 
